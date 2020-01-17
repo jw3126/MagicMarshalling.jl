@@ -12,7 +12,7 @@ PKGNAME = "MagicMarshalling"
 
 function __init__()
     # THIS IS HACKY
-    # We need it so that ConstructionBase is visible in Main
+    # We do this so that ConstructionBase is visible in Main
     Core.eval(Main, :(using ConstructionBase: ConstructionBase))
 end
 
