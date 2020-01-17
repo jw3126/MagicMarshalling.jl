@@ -1,0 +1,13 @@
+name = "MagicMarshalling"
+uuid = "4f857540-c2a6-4a29-ae60-34027dcf18bd"
+authors = ["Jan Weidner"]
+version = "0.1.0"
+
+[compat]
+julia = "1.3"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
